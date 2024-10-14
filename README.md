@@ -58,3 +58,30 @@ If you want to use a custom icon for the tray, you can include it with:
 ```bash
 pyinstaller --onefile --icon=youricon.ico idm.py
 ```
+## Run program on Startup
+
+1. Open the Startup folder:
+
+Press the Windows key + R to open the Run dialog.
+Type shell:startup and press Enter.
+
+```bash
+shell:startup
+```
+
+2. Create a shortcut for your program:
+
+Locate the executable file (.exe) of the program you want to run at startup.
+Right-click on the file and select "Create shortcut".
+
+
+3. Add the shortcut to the Startup folder:
+
+Drag and drop (or copy and paste) the newly created shortcut into the Startup folder you opened in step 1.
+
+
+4. Verify:
+
+Restart your computer to check if the program launches automatically.
+
+Note: To stop a program from running at startup, simply delete its shortcut from the Startup folder.
