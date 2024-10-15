@@ -1,6 +1,3 @@
-# môi trường
-env
-
 # pyinstaller
 build
 dist
