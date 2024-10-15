@@ -26,11 +26,11 @@ class IDManWindowCloser:
             width = rect[2] - rect[0]
             height = rect[3] - rect[1]
 
-            # if exe_name.lower() == "idman.exe":
-            #     print(f"{window_text} - {exe_name} Size {width}x{height}")
+            if exe_name.lower() == "idman.exe":
+                print(f"{window_text} - {exe_name} Size {width}x{height}")
 
 
-            if not window_text and exe_name.lower() == "idman.exe" and width > 237 and height > 257:
+            if not window_text and exe_name.lower() == "idman.exe" and width > 246 and height > 346:
                 result_list.append(hwnd)
 
     def close_windows(self):

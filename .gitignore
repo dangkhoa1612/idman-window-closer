@@ -1,1 +1,8 @@
+# môi trường
 env
+
+# pyinstaller
+build
+dist
+
+idm.spec
